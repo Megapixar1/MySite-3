@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Signup</title>
+</head>
+<body>
+
+
+    <div class="page">
+
+        <header class="header">
+        
+            <div class="header__left">
+        
+                <nav class="nav">
+        
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link has-subnav" href="#">Статьи</a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav__link" href="#">Cоздание сайтов</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Продаижение видео</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="text.html">Реклама</a>
+                        </li>
+                    </ul>
+        
+                </nav>
+                <button class="burger" type="button">
+                    <span>Open</span>
+                </button>
+            </div>
+        
+            <div class="header__rigth">
+        
+                <nav class="nav">
+        
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Выйти</a>
+                        </li>
+                    </ul>
+                    
+                </nav>
+        
+                <form class="search" action="search.html" method="get">
+                    <input class="search__input" type="text" placeholder="Поиск по блогу" name="" id="">
+                </form>
+        
+            </div>
+        
+        </header>
+
+        <aside class="sidebar">
+        
+            <div class="sidebar__header">
+                <img src="assets/images/sidebar-header.jpg" alt="">
+            </div>
+        
+            <div class="sidebar__content">
+        
+                <div class="profile">
+                    <img class="profile__avatar" src="assets/images/me.jpg" alt="">
+                    <div class="profile__header">
+                        <div class="profile__name">Дмитрий Колосовский</div>
+                        <div class="profile__prof">блог front-end разработчика</div>
+                    </div>
+        
+                    <ul class="social">
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img src="assets/images/instagram.svg" alt="instagram Дмитрий Колосовский">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img src="assets/images/vk.svg" alt="vk Дмитрий Колосовский">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img src="assets/images/pinterest.svg" alt="pinterest Дмитрий Колосовский">
+                            </a>
+                        </li>
+                    </ul>
+        
+                    <div class="profile__text">
+                        <p>
+                            Front-end разработчик. Практик верстки сайтов.
+        
+                            Созданием сайтов занимаюсь с 2012 года. Работал в нескольких ИТ компаниях
+                            и наработал более 10 000 часов в создании сайтов различной сложности.
+                        </p>
+                    </div>
+                    
+                </div>
+        
+                <nav class="nav nav--mobile">
+        
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link has-subnav" href="#">Статьи</a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav__link" href="#">Cоздание сайтов</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Продаижение видео</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="text.html">Реклама</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Выйти</a>
+                        </li>
+                    </ul>
+        
+                </nav>
+        
+            </div>
+        
+            <div class="sidebar__footer">
+                <a class="btn btn--red" href="works.html">Мои работы</a>
+                <button class="btn btn--blue" type="button" data-modal="contact-modal">Написать мне</button>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="container">
+                
+                <h1 class="page__title page__title--center">Регистрация</h1>
+                
+                <form class="form form--auth" action="/" method="POST">
+                    <div class="form__group form__group--md">
+                        <input class="form__control" placeholder="Ваше имя" type="text">
+                        <span class="form__line"></span>
+                    </div>
+                
+                    <div class="form__group form__group--md">
+                        <input class="form__control" placeholder="Ваш e-mail" type="text">
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__group form__group--md">
+                        <input class="form__control" placeholder="Пароль"  type="password">
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__group form__group--md">
+                        <input class="form__control" placeholder="Подтвердите пароль" type="password">
+                        <span class="form__line"></span>
+                    </div>
+                    <div class="form__footer form__footer--center">
+                        <div class="form__group form__group--md">
+                            <button class="btn btn--blue btn--rounded btn--sm" type="submit">Регистрация</button>
+                        </div>
+                        <ul class="form__footer-list">
+                            <li>
+                                <a href="signin.html">войти</a>
+                            </li>
+                            <li>
+                                <a href="reset.html">восстановить</a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </main>
+    
+    </div>
+    
+    <div class="modal" id="story-modal">
+        <video class="modal__video" src="" poster="https://placehold.it/420x580">
+    
+        </video>
+    </div>    <div class="modal" id="contact-modal">
+        <div class="modal__content">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <form class="form" action="/" method="POST">
+                <div class="form__group form__group--md">
+                    <input class="form__control" placeholder="Ваше имя" type="text">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group--md">
+                    <input class="form__control" placeholder="Ваш e-mail" type="text">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group--md">
+                    <textarea  class="form__control form__control--textarea" placeholder="Текст сообщения"></textarea>
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__footer">
+                    <div class="form__group form__group--md">
+                        <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+                    </div>
+                </div>
+            </form>
+    
+            <ul class="modal__footer">
+                <li>
+                    e-mail: <a href="mailto:devwebman2020@gmail.com">man2020@gmail.com</a>
+                </li>    
+                <li>
+                    тел: <a href="tel:+380983135136">+38098-313-51-136</a> 
+                </li>  
+            </ul>
+        </div>
+    </div>    <div class="modal">
+        <div class="modal__content modal__content--contact">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="Закрыть">
+            </button>   
+    
+            <ul class="social">
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/facebook.svg" alt="">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/twitter.svg" alt="">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/vk.svg" alt="">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="#">
+                        <img src="assets/images/share/copy.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+    
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
